@@ -1,0 +1,50 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>tableTexture.jpg</file>
+        <file>ball.png</file>
+        <file>iceCubes.png</file>
+        <file>limeJuice.png</file>
+        <file>limeSlice.png</file>
+        <file>saltRim.png</file>
+        <file>tequila.png</file>
+        <file>tripleSec.png</file>
+        <file>gin.png</file>
+        <file>olives.png</file>
+        <file>coconutCream.png</file>
+        <file>crushedIce.jpg</file>
+        <file>pineappleJuice.png</file>
+        <file>whiteRum.png</file>
+        <file>vermouth.png</file>
+        <file>whiskey.png</file>
+        <file>sweetRedVermouth.png</file>
+        <file>maraschinoCherry.png</file>
+        <file>bitters.png</file>
+        <file>agaveSyrup.png</file>
+        <file>blueCuracao.png</file>
+        <file>drinkShaker.png</file>
+        <file>jigger.png</file>
+        <file>martiniGlass.png</file>
+        <file>jigger_FULL.png</file>
+        <file>drinkShaker_SHAKEN.png</file>
+        <file>martiniGlass_FULL.png</file>
+        <file>back.png</file>
+        <file>next.png</file>
+        <file>TextBubble.png</file>
+    </qresource>
+    <qresource prefix="/background">
+        <file>tableTexture.jpg</file>
+        <file>barBackground.jpg</file>
+        <file>menuBackground.jpg</file>
+        <file>ball.png</file>
+        <file>shelf.png</file>
+        <file>ChalkBoard.png</file>
+        <file>woodBackground.jpg</file>
+        <file>backgroundLights.png</file>
+    </qresource>
+    <qresource prefix="/Recipes">
+        <file>recipes</file>
+    </qresource>
+    <qresource prefix="/font">
+        <file>Chalk-Regular.ttf</file>
+    </qresource>
+</RCC>

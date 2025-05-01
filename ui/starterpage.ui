@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StarterPage</class>
+ <widget class="QMainWindow" name="StarterPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>602</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="gameName">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>771</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>40</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Bartending Simulator</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="whatYouLearn">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>70</y>
+      <width>321</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/background/woodBackground.jpg);</string>
+    </property>
+    <property name="text">
+     <string> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consectetur felis venenatis tellus interdum molestie. Quisque eu tristique elit. Quisque sodales neque at ipsum pulvinar, eget ultrices urna pretium. Quisque venenatis, diam sit amet tempus luctus, turpis dolor aliquet tellus, et sodales mauris justo vulputate enim. Etiam euismod sem a metus lobortis feugiat. Quisque eu tincidunt est. Aenean quis ultrices dui, ut ornare massa. Fusce eget nunc leo. Vestibulum in porta orci. Pellentesque blandit, enim scelerisque pellentesque malesuada, nisi dolor suscipit turpis, non finibus tortor velit eu purus.
+
+Integer metus elit, mollis eu elementum a, auctor sit amet neque. Pellentesque aliquet mattis mauris ut lacinia. Praesent ut congue tortor, sit amet aliquet magna. Nulla ullamcorper quam quis massa tristique blandit. Maecenas molestie id tellus sed volutpat. Vestibulum id metus libero. Mauris tempor dui ut nunc tincidunt, sed efficitur enim tempor. Quisque sem nunc, mattis nec sollicitudin eu, facilisis at lectus. Integer posuere vitae diam in dapibus. Proin sed scelerisque tortor. In eu tempus ex, eu volutpat ante. Duis quis turpis eget nisl mattis fermentum. Vivamus eu tempor magna. Mauris non ornare arcu, vel cursus nisl. Aliquam auctor est sed leo condimentum tempus. Proin ac turpis id nunc vehicula ullamcorper at vel nisl. </string>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="images.qrc">:/background/woodBackground.jpg</pixmap>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignTop</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+    <property name="margin">
+     <number>10</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="howToPlay">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>431</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/background/woodBackground.jpg);</string>
+    </property>
+    <property name="text">
+     <string> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consectetur felis venenatis tellus interdum molestie. Quisque eu tristique elit. Quisque sodales neque at ipsum pulvinar, eget ultrices urna pretium. Quisque venenatis, diam sit amet tempus luctus, turpis dolor aliquet tellus, et sodales mauris justo vulputate enim. Etiam euismod sem a metus lobortis feugiat. Quisque eu tincidunt est. Aenean quis ultrices dui, ut ornare massa. Fusce eget nunc leo. Vestibulum in porta orci. Pellentesque blandit, enim scelerisque pellentesque malesuada, nisi dolor suscipit turpis, non finibus tortor velit eu purus.
+
+Integer metus elit, mollis eu elementum a, auctor sit amet neque. Pellentesque aliquet mattis mauris ut lacinia. Praesent ut congue tortor, sit amet aliquet magna. Nulla ullamcorper quam quis massa tristique blandit. Maecenas molestie id tellus sed volutpat. Vestibulum id metus libero. Mauris tempor dui ut nunc tincidunt, sed efficitur enim tempor. Quisque sem nunc, mattis nec sollicitudin eu, facilisis at lectus. Integer posuere vitae diam in dapibus. Proin sed scelerisque tortor. In eu tempus ex, eu volutpat ante. Duis quis turpis eget nisl mattis fermentum. Vivamus eu tempor magna. Mauris non ornare arcu, vel cursus nisl. Aliquam auctor est sed leo condimentum tempus. Proin ac turpis id nunc vehicula ullamcorper at vel nisl. </string>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="images.qrc">:/background/woodBackground.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignTop</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+    <property name="margin">
+     <number>10</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="startGame">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>360</y>
+      <width>321</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>30</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 84, 147);</string>
+    </property>
+    <property name="text">
+     <string>Become a
+ bartender</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>16</width>
+      <height>16</height>
+     </size>
+    </property>
+    <property name="autoRepeat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="background">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>811</width>
+      <height>571</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="images.qrc">:/background/backgroundLights.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>background</zorder>
+   <zorder>gameName</zorder>
+   <zorder>startGame</zorder>
+   <zorder>whatYouLearn</zorder>
+   <zorder>howToPlay</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

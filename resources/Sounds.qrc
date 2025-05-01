@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/SFX">
+        <file>metal pipe falling sound effect.wav</file>
+        <file>PourSFX.wav</file>
+        <file>BottleClinkSFX.wav</file>
+        <file>ShakerSFX.wav</file>
+        <file>WinSFX.mp3</file>
+    </qresource>
+</RCC>
