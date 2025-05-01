@@ -580,7 +580,7 @@ void MainWindow::destroyMouseJoint(){
 void MainWindow::playCollisionSound(){
     if (collisionSoundRateLimiter.hasExpired(500)) {
         QSoundEffect* collisionSFX = new QSoundEffect(this);
-        collisionSFX->setSource(QUrl("qrc:/SFX/BottleClinkSFX.wav"));
+        collisionSFX->setSource(QUrl("qrc:/SFX/metal pipe falling sound effect.wav"));
         collisionSFX->setVolume(0.25f);
         connect(collisionSFX, &QSoundEffect::playingChanged, this, [this, collisionSFX]() {
             if (!collisionSFX->isPlaying()) {
